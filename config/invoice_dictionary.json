@@ -1,0 +1,100 @@
+{
+  "ocr_extraction_fields":
+{
+  "currency_code": [
+    "currency",
+    "currency code",
+    "currency type",
+    "curr.",
+    "currency symbol"
+  ],
+  "item_total_quantity": [
+    "total quantity",
+    "total qty",
+    "total units",
+    "total pieces",
+    "quantity total"
+  ],
+  "total_discount": [
+    "total discount",
+    "discount total",
+    "total allowance",
+    "allowance total",
+    "discount"
+  ],
+  "order_number": [
+    "order number",
+    "order no",
+    "po number",
+    "po no",
+    "purchase order",
+    "purchase order number",
+    "customer order number"
+  ],
+  "document_date": [
+    "document date",
+    "invoice date",
+    "date",
+    "invoice issue date"
+  ],
+  "invoice_number": [
+    "invoice number",
+    "invoice no",
+    "invoice #",
+    "invoice id",
+    "vendor invoice number",
+    "supplier invoice number"
+  ],
+  "supplier_name": [
+    "supplier",
+    "supplier name",
+    "vendor",
+    "vendor name",
+    "seller",
+    "seller name",
+    "from"
+  ],
+  "buyer_name": [
+    "buyer",
+    "buyer name",
+    "customer",
+    "customer name",
+    "bill to",
+    "sold to",
+    "ship to"
+  ],
+  "quantity": [
+    "quantity",
+    "qty",
+    "units",
+    "pieces"
+  ],
+  "original_unit_cost": [
+    "unit price",
+    "unit cost",
+    "original unit cost",
+    "original price",
+    "price per unit",
+    "unit rate"
+  ],
+  "description": [
+    "description",
+    "item description",
+    "product description",
+    "product",
+    "item",
+    "goods description",
+    "article description"
+  ],
+  "total_amount": [
+    "amount",
+    "total amount",
+    "line amount",
+    "line total",
+    "extended amount",
+    "extended price",
+    "value",
+    "total value"
+  ]
+}
+}

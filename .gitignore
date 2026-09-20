@@ -1,0 +1,7 @@
+.venv_vl
+__pycache__
+*.pyc
+node_modules
+dist
+.env.bak
+data/tmp/*

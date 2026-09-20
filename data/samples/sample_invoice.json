@@ -1,0 +1,773 @@
+{
+    "file_name": "sample_invoice.pdf",
+    "file_type": ".pdf",
+    "pages": [
+        {
+            "page_number": 1,
+            "text": [
+                {
+                    "text": "Golden Harvest Foods Ltd.",
+                    "confidence": 0.9999740719795227
+                },
+                {
+                    "text": "Line ID",
+                    "confidence": 0.9999641180038452
+                },
+                {
+                    "text": "Gentran ID",
+                    "confidence": 0.9999867677688599
+                },
+                {
+                    "text": "File Date",
+                    "confidence": 0.9999942779541016
+                },
+                {
+                    "text": "Record Descriptor",
+                    "confidence": 0.999997079372406
+                },
+                {
+                    "text": "UPINV",
+                    "confidence": 0.9999608993530273
+                },
+                {
+                    "text": "20260910112126",
+                    "confidence": 0.9999977946281433
+                },
+                {
+                    "text": "FHEAD",
+                    "confidence": 0.9999866485595703
+                },
+                {
+                    "text": "0000000001",
+                    "confidence": 0.9980761408805847
+                },
+                {
+                    "text": "Thead",
+                    "confidence": 0.9999980926513672
+                },
+                {
+                    "text": "Line ID",
+                    "confidence": 0.9999801516532898
+                },
+                {
+                    "text": "0000000002",
+                    "confidence": 0.9991276860237122
+                },
+                {
+                    "text": "Record Descriptor",
+                    "confidence": 0.9999959468841553
+                },
+                {
+                    "text": "0000000001",
+                    "confidence": 0.9880367517471313
+                },
+                {
+                    "text": "Document Type",
+                    "confidence": 0.9996817708015442
+                },
+                {
+                    "text": "MRCHI",
+                    "confidence": 0.9998893737792969
+                },
+                {
+                    "text": "Transaction Number",
+                    "confidence": 0.9999945163726807
+                },
+                {
+                    "text": "INV-2026-00125",
+                    "confidence": 0.9999874234199524
+                },
+                {
+                    "text": "Group ID",
+                    "confidence": 0.9999390840530396
+                },
+                {
+                    "text": "0000000000",
+                    "confidence": 0.9826527833938599
+                },
+                {
+                    "text": "Vendor Document",
+                    "confidence": 0.9999919533729553
+                },
+                {
+                    "text": "Number",
+                    "confidence": 0.9999969005584717
+                },
+                {
+                    "text": "Vendor Type",
+                    "confidence": 0.9601197838783264
+                },
+                {
+                    "text": "SUPP",
+                    "confidence": 0.9999886751174927
+                },
+                {
+                    "text": "Vendor ID",
+                    "confidence": 0.9999538064002991
+                },
+                {
+                    "text": "0000012345",
+                    "confidence": 0.9999917149543762
+                },
+                {
+                    "text": "20260910100000",
+                    "confidence": 0.9999933838844299
+                },
+                {
+                    "text": "Order Number",
+                    "confidence": 0.999988317489624
+                },
+                {
+                    "text": "4500012345",
+                    "confidence": 0.9999985694885254
+                },
+                {
+                    "text": "Vendor Document",
+                    "confidence": 0.9999958872795105
+                },
+                {
+                    "text": "Date",
+                    "confidence": 0.9999949932098389
+                },
+                {
+                    "text": "Location",
+                    "confidence": 0.9999949932098389
+                },
+                {
+                    "text": "0000000101",
+                    "confidence": 0.9998712539672852
+                },
+                {
+                    "text": "Location Type",
+                    "confidence": 0.9999282360076904
+                },
+                {
+                    "text": "S",
+                    "confidence": 0.9954113364219666
+                },
+                {
+                    "text": "Terms",
+                    "confidence": 0.9999955296516418
+                },
+                {
+                    "text": "NET30",
+                    "confidence": 0.9999530911445618
+                },
+                {
+                    "text": "Due Date",
+                    "confidence": 0.9999904036521912
+                },
+                {
+                    "text": "20261010100000",
+                    "confidence": 0.9999922513961792
+                },
+                {
+                    "text": "BANK",
+                    "confidence": 0.9999845027923584
+                },
+                {
+                    "text": "Currency",
+                    "confidence": 0.999995231628418
+                },
+                {
+                    "text": "USD",
+                    "confidence": 0.9999935030937195
+                },
+                {
+                    "text": "Payment Method",
+                    "confidence": 0.999994695186615
+                },
+                {
+                    "text": "Exchange Rate",
+                    "confidence": 0.9999863505363464
+                },
+                {
+                    "text": "000000000000",
+                    "confidence": 0.9644237160682678
+                },
+                {
+                    "text": "Cost Sign",
+                    "confidence": 0.9999921321868896
+                },
+                {
+                    "text": "+",
+                    "confidence": 0.9736614227294922
+                },
+                {
+                    "text": "Total Cost",
+                    "confidence": 0.9999901056289673
+                },
+                {
+                    "text": "0000000000002500",
+                    "confidence": 0.9995333552360535
+                },
+                {
+                    "text": "VAT Sign",
+                    "confidence": 0.9999576807022095
+                },
+                {
+                    "text": "+",
+                    "confidence": 0.8920378684997559
+                },
+                {
+                    "text": "0000",
+                    "confidence": 0.9999750256538391
+                },
+                {
+                    "text": "Total VAT",
+                    "confidence": 0.9999644160270691
+                },
+                {
+                    "text": "0000000000000250",
+                    "confidence": 0.9991464614868164
+                },
+                {
+                    "text": "Quantity Sign",
+                    "confidence": 0.9999774694442749
+                },
+                {
+                    "text": "+",
+                    "confidence": 0.9248132109642029
+                },
+                {
+                    "text": "0000",
+                    "confidence": 0.9999728202819824
+                },
+                {
+                    "text": "Total Quantity",
+                    "confidence": 0.9995790719985962
+                },
+                {
+                    "text": "000001500000",
+                    "confidence": 0.9998638033866882
+                },
+                {
+                    "text": "Discount Sign",
+                    "confidence": 0.9995269179344177
+                },
+                {
+                    "text": "+",
+                    "confidence": 0.9222000241279602
+                },
+                {
+                    "text": "000000000000",
+                    "confidence": 0.9793241620063782
+                },
+                {
+                    "text": "Freight Type",
+                    "confidence": 0.9999849796295166
+                },
+                {
+                    "text": "blank",
+                    "confidence": 0.9999974966049194
+                },
+                {
+                    "text": "Total Discount",
+                    "confidence": 0.9999934434890747
+                },
+                {
+                    "text": "Paid",
+                    "confidence": 0.9999945163726807
+                },
+                {
+                    "text": "N",
+                    "confidence": 0.9999755620956421
+                },
+                {
+                    "text": "Multi Location",
+                    "confidence": 0.9999778866767883
+                },
+                {
+                    "text": "N",
+                    "confidence": 0.999975323677063
+                },
+                {
+                    "text": "Merch Type",
+                    "confidence": 0.9999907612800598
+                },
+                {
+                    "text": "D",
+                    "confidence": 0.9999488592147827
+                },
+                {
+                    "text": "Deal ID",
+                    "confidence": 0.9838232398033142
+                },
+                {
+                    "text": "0000000005",
+                    "confidence": 0.9991931915283203
+                },
+                {
+                    "text": "M",
+                    "confidence": 0.9993280172348022
+                },
+                {
+                    "text": "RTV",
+                    "confidence": 0.9999804496765137
+                },
+                {
+                    "text": "Y",
+                    "confidence": 0.9999817609786987
+                },
+                {
+                    "text": "Deal Approval",
+                    "confidence": 0.9997662901878357
+                },
+                {
+                    "text": "Custom Ref 1",
+                    "confidence": 0.999805748462677
+                },
+                {
+                    "text": "This Product is",
+                    "confidence": 0.9970862865447998
+                },
+                {
+                    "text": "Custom Ref 2",
+                    "confidence": 0.9999148845672607
+                },
+                {
+                    "text": "good",
+                    "confidence": 0.9999936819076538
+                },
+                {
+                    "text": "Custom Ref 3",
+                    "confidence": 0.9999009966850281
+                },
+                {
+                    "text": "Custom Ref 4",
+                    "confidence": 0.9999539256095886
+                },
+                {
+                    "text": "Cross Reference",
+                    "confidence": 0.9999912977218628
+                },
+                {
+                    "text": "0000000025",
+                    "confidence": 0.9990462064743042
+                }
+            ]
+        },
+        {
+            "page_number": 2,
+            "text": [
+                {
+                    "text": "Record Descriptor: TDETL",
+                    "confidence": 0.9999553561210632
+                },
+                {
+                    "text": "Line ID: 0000000003",
+                    "confidence": 0.9913134574890137
+                },
+                {
+                    "text": "Transaction Number: 0000000001",
+                    "confidence": 0.9984212517738342
+                },
+                {
+                    "text": "UPC:",
+                    "confidence": 0.9999666213989258
+                },
+                {
+                    "text": "UPC Supplement:",
+                    "confidence": 0.9982715845108032
+                },
+                {
+                    "text": "Item: ITEM000456",
+                    "confidence": 0.9963118433952332
+                },
+                {
+                    "text": "VPN:",
+                    "confidence": 0.9998753666877747
+                },
+                {
+                    "text": "Quantity Sign: +",
+                    "confidence": 0.9910904169082642
+                },
+                {
+                    "text": "Quantity: 000000000500",
+                    "confidence": 0.9974031448364258
+                },
+                {
+                    "text": "Unit Cost Sign: +",
+                    "confidence": 0.9974533319473267
+                },
+                {
+                    "text": "Unit Cost: 0000000000000000040000",
+                    "confidence": 0.9955651164054871
+                },
+                {
+                    "text": "VAT Code: VATHGT",
+                    "confidence": 0.9994128942489624
+                },
+                {
+                    "text": "VAT Rate:00000000012000000000",
+                    "confidence": 0.9998713135719299
+                },
+                {
+                    "text": "Allowance Sign: +",
+                    "confidence": 0.9990581274032593
+                },
+                {
+                    "text": "Allowance: 00000000000000100000",
+                    "confidence": 0.9954664707183838
+                },
+                {
+                    "text": "Record Descriptor: TDETL",
+                    "confidence": 0.9998251795768738
+                },
+                {
+                    "text": "Line ID: 0000000004",
+                    "confidence": 0.9924393892288208
+                },
+                {
+                    "text": "Transaction Number: 0000000001",
+                    "confidence": 0.9963588714599609
+                },
+                {
+                    "text": "UPC:",
+                    "confidence": 0.9999678134918213
+                },
+                {
+                    "text": "UPC Supplement:",
+                    "confidence": 0.9999859929084778
+                },
+                {
+                    "text": "Item: ITEM000123",
+                    "confidence": 0.9973422884941101
+                },
+                {
+                    "text": "VPN:",
+                    "confidence": 0.9998114705085754
+                },
+                {
+                    "text": "Quantity Sign: +",
+                    "confidence": 0.997657060623169
+                },
+                {
+                    "text": "Quantity: 000000001500",
+                    "confidence": 0.9972852468490601
+                },
+                {
+                    "text": "Unit Cost Sign: +",
+                    "confidence": 0.9958564639091492
+                },
+                {
+                    "text": "Unit Cost: 0000000000000000025000",
+                    "confidence": 0.98843914270401
+                },
+                {
+                    "text": "VAT Code: VATDEM",
+                    "confidence": 0.9987386465072632
+                },
+                {
+                    "text": "VAT Rate: 00000000018000000000",
+                    "confidence": 0.9964324831962585
+                },
+                {
+                    "text": "Allowance Sign: +",
+                    "confidence": 0.9989917874336243
+                },
+                {
+                    "text": "Allowance: 00000000000000000000",
+                    "confidence": 0.9946275353431702
+                },
+                {
+                    "text": "Record Descriptor: TDETL",
+                    "confidence": 0.9982559680938721
+                },
+                {
+                    "text": "Line ID: 0000000005",
+                    "confidence": 0.9835420846939087
+                },
+                {
+                    "text": "Transaction Number: 0000000001",
+                    "confidence": 0.9947511553764343
+                },
+                {
+                    "text": "UPC:",
+                    "confidence": 0.999965488910675
+                },
+                {
+                    "text": "UPC Supplement:",
+                    "confidence": 0.9998961687088013
+                },
+                {
+                    "text": "Item: ITEM000789",
+                    "confidence": 0.9873201847076416
+                },
+                {
+                    "text": "VPN:",
+                    "confidence": 0.9998974204063416
+                },
+                {
+                    "text": "Quantity Sign: +",
+                    "confidence": 0.9988576769828796
+                },
+                {
+                    "text": "Quantity:000000000750",
+                    "confidence": 0.9999717473983765
+                },
+                {
+                    "text": "Unit Cost Sign: +",
+                    "confidence": 0.985546886920929
+                },
+                {
+                    "text": "Unit Cost: 0000000000000000030000",
+                    "confidence": 0.9961565136909485
+                },
+                {
+                    "text": "VAT Code: VATDEM",
+                    "confidence": 0.9993951320648193
+                },
+                {
+                    "text": "VAT Rate: 00000000018000000000",
+                    "confidence": 0.9976593852043152
+                },
+                {
+                    "text": "Allowance Sign: +",
+                    "confidence": 0.9896602630615234
+                },
+                {
+                    "text": "Allowance: 00000000000000000000",
+                    "confidence": 0.9701636433601379
+                },
+                {
+                    "text": "Record Descriptor: TDETL",
+                    "confidence": 0.9986801743507385
+                },
+                {
+                    "text": "Line ID: 0000000006",
+                    "confidence": 0.9984631538391113
+                },
+                {
+                    "text": "Transaction Number: 0000000001",
+                    "confidence": 0.9920491576194763
+                },
+                {
+                    "text": "UPC:",
+                    "confidence": 0.9999708533287048
+                },
+                {
+                    "text": "UPC Supplement:",
+                    "confidence": 0.9999746680259705
+                },
+                {
+                    "text": "Item: ITEM000890",
+                    "confidence": 0.9691118001937866
+                },
+                {
+                    "text": "VPN:",
+                    "confidence": 0.9998681545257568
+                },
+                {
+                    "text": "Quantity Sign: +",
+                    "confidence": 0.9974614381790161
+                },
+                {
+                    "text": "Quantity: 000000000250",
+                    "confidence": 0.9802419543266296
+                },
+                {
+                    "text": "Unit Cost Sign: +",
+                    "confidence": 0.9988070130348206
+                }
+            ]
+        },
+        {
+            "page_number": 3,
+            "text": [
+                {
+                    "text": "Unit Cost: 0000000000000000050000",
+                    "confidence": 0.993299663066864
+                },
+                {
+                    "text": "VAT Code: VATGFR",
+                    "confidence": 0.9818142652511597
+                },
+                {
+                    "text": "VAT Rate: 00000000012000000000",
+                    "confidence": 0.9988137483596802
+                },
+                {
+                    "text": "Allowance Sign: +",
+                    "confidence": 0.9966293573379517
+                },
+                {
+                    "text": "Allowance: 00000000000000000000",
+                    "confidence": 0.9828673601150513
+                },
+                {
+                    "text": "Record Descriptor: TNMRC Line ID: 0000000007 Transaction Number: 0000000001",
+                    "confidence": 0.9723100066184998
+                },
+                {
+                    "text": "Non-Merchandise Code: FREIGH",
+                    "confidence": 0.9931566119194031
+                },
+                {
+                    "text": "Sign Indicator - Amount: +",
+                    "confidence": 0.9931256175041199
+                },
+                {
+                    "text": "Non-Merchandise Amount: 00000000000000150000",
+                    "confidence": 0.9954602718353271
+                },
+                {
+                    "text": "Non-Merchandise VAT Code: VATDEM",
+                    "confidence": 0.9955486059188843
+                },
+                {
+                    "text": "Non-Merchandise VAT Rate: 00000000018000000000 Service Performed Indicator: Y",
+                    "confidence": 0.9897271394729614
+                },
+                {
+                    "text": "Store: 0000000101",
+                    "confidence": 0.9910945892333984
+                },
+                {
+                    "text": "Record Descriptor: TNMRC Line ID: 0000000008 Transaction Number: 0000000001",
+                    "confidence": 0.9766032099723816
+                },
+                {
+                    "text": "Non-Merchandise Code: HANDLG",
+                    "confidence": 0.9993005990982056
+                },
+                {
+                    "text": "Sign Indicator - Amount: +",
+                    "confidence": 0.9991985559463501
+                },
+                {
+                    "text": "Non-Merchandise Amount: 00000000000000075000",
+                    "confidence": 0.9922301769256592
+                },
+                {
+                    "text": "Non-Merchandise VAT Code: VATDEM",
+                    "confidence": 0.974097490310669
+                },
+                {
+                    "text": "Non-Merchandise VAT Rate: 00000000012000000000",
+                    "confidence": 0.9957751631736755
+                },
+                {
+                    "text": "Service Performed Indicator: Y",
+                    "confidence": 0.9971441626548767
+                },
+                {
+                    "text": "Store: 0000000101",
+                    "confidence": 0.9875006079673767
+                },
+                {
+                    "text": "Record Descriptor: TVATS",
+                    "confidence": 0.9992201328277588
+                },
+                {
+                    "text": "Line ID: 0000000009",
+                    "confidence": 0.9897531270980835
+                },
+                {
+                    "text": "Transaction Number: 0000000001",
+                    "confidence": 0.9933752417564392
+                },
+                {
+                    "text": "VAT Code: VATDEM",
+                    "confidence": 0.9733359813690186
+                },
+                {
+                    "text": "VAT Rate: 00000000018000000000",
+                    "confidence": 0.9928008317947388
+                },
+                {
+                    "text": "Sign Indicator - Cost: +",
+                    "confidence": 0.9963905215263367
+                },
+                {
+                    "text": "Cost at this VAT Code: 00000000000001500000",
+                    "confidence": 0.9977206587791443
+                },
+                {
+                    "text": "Record Descriptor: TVATS",
+                    "confidence": 0.9998133778572083
+                },
+                {
+                    "text": "Line ID: 0000000010",
+                    "confidence": 0.9988986849784851
+                },
+                {
+                    "text": "Transaction Number: 0000000001",
+                    "confidence": 0.9987560510635376
+                },
+                {
+                    "text": "VAT Code: VATDEM",
+                    "confidence": 0.9994542002677917
+                },
+                {
+                    "text": "VAT Rate: 00000000012000000000",
+                    "confidence": 0.9890853762626648
+                },
+                {
+                    "text": "Sign Indicator - Cost: +",
+                    "confidence": 0.9985786080360413
+                },
+                {
+                    "text": "Cost at this VAT Code: 00000000000000750000",
+                    "confidence": 0.9954588413238525
+                },
+                {
+                    "text": "Record Descriptor",
+                    "confidence": 0.9747391939163208
+                },
+                {
+                    "text": "TTAIL",
+                    "confidence": 0.9999911189079285
+                },
+                {
+                    "text": "Line ID",
+                    "confidence": 0.9999852180480957
+                },
+                {
+                    "text": "0000000011",
+                    "confidence": 0.9994956851005554
+                },
+                {
+                    "text": "Transaction Number",
+                    "confidence": 0.9999954700469971
+                },
+                {
+                    "text": "0000000001",
+                    "confidence": 0.9995479583740234
+                },
+                {
+                    "text": "Transaction Lines:",
+                    "confidence": 0.9999817609786987
+                },
+                {
+                    "text": "000002",
+                    "confidence": 0.9999497532844543
+                },
+                {
+                    "text": "Record Descriptor",
+                    "confidence": 0.9999960660934448
+                },
+                {
+                    "text": "FTAIL",
+                    "confidence": 0.9999276995658875
+                },
+                {
+                    "text": "Line ID",
+                    "confidence": 0.9999777674674988
+                },
+                {
+                    "text": "0000000012",
+                    "confidence": 0.9997919797897339
+                },
+                {
+                    "text": "Number of Lines",
+                    "confidence": 0.9999662637710571
+                },
+                {
+                    "text": "0000000010",
+                    "confidence": 0.9992552995681763
+                }
+            ]
+        }
+    ]
+}

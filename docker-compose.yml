@@ -1,0 +1,151 @@
+services:
+
+  minio:
+    image: quay.io/minio/minio:latest
+    command: server /data --console-address ":9001"
+
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minioadmin123}
+
+    volumes:
+      - minio_data:/data
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 10s
+
+    restart: unless-stopped
+
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+
+    command: >
+      python -m uvicorn backend.main:app
+      --host 0.0.0.0
+      --port 8000  --no-access-log
+
+    ports:
+      - "8000:8000"
+
+    env_file:
+      - .env
+
+    environment:
+      STORAGE_ENDPOINT: minio:9000
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD:-minioadmin123}
+
+    depends_on:
+      minio:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+
+  ocr-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.ocr
+
+    command: python -m workers.ocr_worker.worker
+
+    env_file:
+      - .env
+
+    environment:
+      STORAGE_ENDPOINT: minio:9000
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD:-minioadmin123}
+      PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK: "True"
+
+    volumes:
+      - paddlex_cache:/root/.paddlex
+
+    depends_on:
+      minio:
+        condition: service_healthy
+
+    gpus: all
+
+    restart: unless-stopped
+
+
+  extraction-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+
+    command: python -m workers.extraction_worker.worker
+
+    env_file:
+      - .env
+
+    environment:
+      STORAGE_ENDPOINT: minio:9000
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD:-minioadmin123}
+
+    depends_on:
+      minio:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+
+  edi-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+
+    command: python -m workers.edi_worker.worker
+
+    env_file:
+      - .env
+
+    environment:
+      STORAGE_ENDPOINT: minio:9000
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD:-minioadmin123}
+
+    depends_on:
+      minio:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+
+      # Vite gets this during the Docker build
+      args:
+        VITE_API_URL: /api
+
+    ports:
+      - "5173:80"
+
+    depends_on:
+      - api
+
+    restart: unless-stopped
+
+
+volumes:
+  minio_data:
+  paddlex_cache:
